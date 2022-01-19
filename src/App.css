@@ -1,0 +1,61 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  height: 100vh;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 19;
+  height: 95%;
+}
+
+.number{
+  letter-spacing:1.75px;
+}
+.number::first-letter{
+  color:pink
+}
+
+.card{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 33px;
+  height: 20%;
+  width: 25%;
+  color: white;
+  background-color: dodgerblue;
+  border: 0.5px solid black;
+  box-sizing: border-box;
+}
+.input {
+  height: 5%;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input p{
+  margin: auto;
+  font-size: 30px;
+}
+p{
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */      
+}
+.reset{
+  width: 5%;
+  border: 10px solid rgb(104, 87, 87);
+
+}
+.command{
+  font-size: 30px;
+}
