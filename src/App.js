@@ -71,7 +71,7 @@ function App() {
     
   };
   const onClickCommand = (content) => {
-    if(['Sảnh', 'Đôi', 'Tam', 'Tứ Quý', 'Đôi Thông'].includes(userInput.split(" ")[0])) return;
+    if(['Sảnh', 'Đôi', 'Tam', 'Tứ', 'Đôi Thông'].includes(userInput.split(" ")[0])) return;
     setUserInput((userInput + " " + content).trim());
   };
   const onClickDelete = () => {
